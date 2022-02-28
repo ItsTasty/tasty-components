@@ -1,5 +1,7 @@
 # Tasty Components
 
+View Storybook here: https://itstasty.github.io/tasty-components/
+
 ## Introduction
 
 Tasty Components are a set of web-ui components inteded for use by web developers on their frontend development projects. The component library is powered by Storybook which outputs markup as either HTML or React Components.
