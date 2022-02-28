@@ -33,10 +33,10 @@ To deploy Storybook to your own GitHub pages, update the "homepage" url in `pack
 ### Components to create
 
 - Accordion
-- Alerts
 - Badge
 - Button / Button Group
 - Breadcrumb
+- Callouts (Alert, Warning, Notice, Success etc.)
 - Card
 - Close
 - Dropdown
