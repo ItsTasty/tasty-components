@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Tasty Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Tasty Components are a set of web-ui components inteded for use by web developers on their frontend development projects. The component library is powered by Storybook which outputs markup as either HTML or React Components.
 
-In the project directory, you can run:
+## Storybook
 
-### `npm start`
+### Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repo to working environment using the `git clone https://github.com/ItsTasty/tasty-components.git` command.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To view storybook locally, first make sure you are running nodejs >14 `nvm use 14` and then run `npm install`. Once the packages have installed run `npm run storybook` to start.
 
-### `npm test`
+To deploy Storybook to your own GitHub pages, update the "homepage" url in `package.json` to match your GitHub repo and run `npm run storybook-build && npm run storybook-deploy`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Commands
 
-### `npm run build`
+- `npm run storybook` - Starts a local instance of storybook
+- `build-storybook` - Creates a production build of storybook
+- `deploy-storybook` - Deploys storybook to Github to url set in package.json
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Addons Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Essentials Bundle](https://storybook.js.org/addons/tag/essentials/)
+- [Links](https://storybook.js.org/addons/@storybook/addon-links/)
+- [Interactions](https://storybook.js.org/addons/@storybook/addon-interactions/)
+- [Accessibility](https://storybook.js.org/addons/@storybook/addon-a11y/)
+- [HTML Preview](https://storybook.js.org/addons/@pbutlewski/storybook-html/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## TODO
 
-### `npm run eject`
+### Components to create
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Accordion
+- Alerts
+- Badge
+- Button / Button Group
+- Breadcrumb
+- Card
+- Close
+- Dropdown
+- Modal
+- Navigation
+- Offcanvas
+- Pagination
+- Progress Bar
+- Spinner
+- Tooltip
+- Tabs
